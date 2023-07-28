@@ -1,0 +1,32 @@
+.App{
+background-color: #ffa500;
+display: flex;
+flex-direction: column;
+}
+
+#headerpic{
+  width: 100%;
+}
+
+.playground{
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#side{
+  display:flex;
+  flex-direction: column;
+}
+
+.textside{
+  font-family: 'dogicapixel.ttf';
+}
